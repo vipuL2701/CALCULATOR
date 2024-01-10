@@ -7,21 +7,21 @@ function valueOp(value){
     updateDisplay();
 }
 
-function setOprator(value2){
-    oper = value2;
+function setOprator(oprt2){
+    oper = oprt2;
     store =curVal;
     curVal = '';
     updateDisplay();
 }
 
-function clear(){
+function clearDis(){
     curVal = '';
-    oper ='';
-    store ='';
+    oper = '';
+    store = '';
     updateDisplay();
 }
 
-function reSult(){
+function resultDis(){
     let result;
     const num1= parseFloat(store);
     const num2= parseFloat(curVal);
