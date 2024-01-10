@@ -9,19 +9,33 @@
 <body>
     <h1>CalcuLAtoR</h1>
      
-    <input id="display" >
+    <input id="display"  readonly>
     <div>
         <button onclick="valueOp('1')">1</button>
         <button onclick="valueOp('2')">2</button>
         <button onclick="valueOp('3')">3</button>
         <button onclick="setOprator('+')">+</button>
     </div>
-    <button onclick="valueOp('1')">1</button>
-    <button onclick="valueOp('2')">2</button>
-    <button onclick="valueOp('3')">3</button>
-    <button onclick="setOprator('+')">+</button>
-    <div>
 
+    <div>
+    <button onclick="valueOp('4')">4</button>
+    <button onclick="valueOp('5')">5</button>
+    <button onclick="valueOp('6')">6</button>
+    <button onclick="setOprator('-')">-</button>
+    </div>
+
+    <div>
+    <button onclick="valueOp('7')">7</button>
+    <button onclick="valueOp('8')">8</button>
+    <button onclick="valueOp('9')">9</button>
+    <button onclick="setOprator('/')">/</button>
+    </div>
+
+    <div>
+        <button onclick="valueOp('0')">0</button>
+    <button onclick="clear()">C</button>
+    <button onclick="reSult()">=</button>
+    <button onclick="setOprator('*')">*</button>
     </div>
     <script src="resut.js"></script>
 </body>
