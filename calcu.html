@@ -7,37 +7,42 @@
     <link rel="stylesheet" href="cal.css">
 </head>
 <body>
-  <h1>CalcuLAtoR</h1>
+  <div class="cont">
+   <h1>CALCULATOR</h1>
    
-    <input id="display"  readonly>
-    <div>
-        <button onclick="valueOp('1')">1</button>
-        <button onclick="valueOp('2')">2</button>
-        <button onclick="valueOp('3')">3</button>
-        <button onclick="setOprator('+')">+</button>
-    </div>
+    <input id="display" readonly>
+    <br/>
+    <br/>
+    <table>
+    <tr>
+        <td><button onclick="valueOp('1')">1</button></td>
+        <td><button onclick="valueOp('2')">2</button></td>
+        <td><button onclick="valueOp('3')">3</button></td>
+        <th><button onclick="setOprator('+')">+</button></th>
+    </tr>
 
-    <div>
-    <button onclick="valueOp('4')">4</button>
-    <button onclick="valueOp('5')">5</button>
-    <button onclick="valueOp('6')">6</button>
-    <button onclick="setOprator('-')">-</button>
-    </div>
+    <tr>
+        <td><button onclick="valueOp('4')">4</button></td>
+        <td><button onclick="valueOp('5')">5</button></td>
+        <td><button onclick="valueOp('6')">6</button></td>
+        <th><button onclick="setOprator('-')">-</button></th>
+    </tr>
 
-    <div>
-    <button onclick="valueOp('7')">7</button>
-    <button onclick="valueOp('8')">8</button>
-    <button onclick="valueOp('9')">9</button>
-    <button onclick="setOprator('/')">/</button>
-    </div>
+    <tr>
+        <td><button onclick="valueOp('7')">7</button></td>
+        <td><button onclick="valueOp('8')">8</button></td>
+        <td><button onclick="valueOp('9')">9</butto></td>
+        <th><button onclick="setOprator('/')">/</button></th>
+    </tr>
 
-    <div>
-        <button onclick="valueOp('0')">0</button>
-    <button onclick="clearDis()">C</button>
-    <button onclick="resultDis()">=</button>
-    <button onclick="setOprator('*')">*</button>
-    </div>
-  
+    <tr>
+        <td><button onclick="valueOp('0')">0</button></td>
+        <th><button onclick="clearDis()">C</button></th>
+        <th><button onclick="setOprator('*')">*</button></th>
+        <th style="background-color: skyblue;"><button onclick="resultDis()">=</button></th>
+    </tr>
+    </table>
+ </div>
     <script src="resut.js"></script>
 </body>
 </html>
